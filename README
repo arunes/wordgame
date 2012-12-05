@@ -1,3 +1,3 @@
-Node.js, MongoDB kullanılarak yapılmış basit bir kelime oyunudur. Oyun test amaçlı yapılmıştır.
+ï»¿Node.js, MongoDB kullanÄ±larak yapÄ±lmÄ±ÅŸ basit bir kelime oyunudur. Oyun test amaÃ§lÄ± yapÄ±lmÄ±ÅŸtÄ±r. Oyunun veritabanÄ±nÄ± [buradan](https://github.com/arunes/wordgame/downloads) indirebilirsiniz.
 
-http://arunes.com:8080 adresinde oyunun çalışan versiyonunu görebilirsiniz. (Test sunucusu olduğundan her zaman yanıt vermeyebilir)
+http://arunes.com:8080 adresinde oyunun Ã§alÄ±ÅŸan versiyonunu gÃ¶rebilirsiniz. (Test sunucusu olduÄŸundan her zaman yanÄ±t vermeyebilir)
