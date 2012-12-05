@@ -1,0 +1,43 @@
+﻿extends layout
+
+block head
+	script(src='/assets/js/main.js')
+
+block content
+	.jumbotron
+	p#pleasewait 
+		img(src='/assets/img/ajax-loader.gif')
+		|&nbsp;Lütfen bekleyiniz...
+
+	hr
+
+	p#badges
+		span Süre 
+		span.badge.badge.gametime 0
+
+		span Doğru Cevap 
+		span.badge.badge-success 0
+	
+		span Yanlış Cevap 
+		span.badge.badge-important 0
+
+		span Ortalama 
+		span.badge.badge-info 0
+
+	hr
+
+	#sound-control
+		span Ses &nbsp;
+		.btn-group
+			button.btn.active(value='1') Açık
+			button.btn(value='0') Kapalı
+
+		audio#audio-correct(preload='auto')
+			source(src='/assets/sound/correct.ogg', type='audio/ogg')
+			source(src='/assets/sound/correct.mp3', type='audio/mpeg')
+			| Your browser does not support the audio element.
+
+		audio#audio-wrong(preload='auto')
+			source(src='/assets/sound/wrong.ogg', type='audio/ogg')
+			source(src='/assets/sound/wrong.mp3', type='audio/mpeg')
+			| Your browser does not support the audio element.
